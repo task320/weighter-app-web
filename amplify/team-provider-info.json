@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-weighterappweb-dev-153101-authRole",
+      "UnauthRoleArn": "arn:aws:iam::838055840728:role/amplify-weighterappweb-dev-153101-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::838055840728:role/amplify-weighterappweb-dev-153101-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-weighterappweb-dev-153101-deployment",
+      "UnauthRoleName": "amplify-weighterappweb-dev-153101-unauthRole",
+      "StackName": "amplify-weighterappweb-dev-153101",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:838055840728:stack/amplify-weighterappweb-dev-153101/699e4200-dc91-11eb-b6e8-067fbb16c57b",
+      "AmplifyAppId": "d2c5houc1ljej8"
+    },
+    "categories": {
+      "auth": {
+        "weighterappwebe3c3a392": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+type Weight @model {
+  userId: String!
+  weight: Float! 
+}
