@@ -71,7 +71,7 @@ function App() {
             <AuthPage exact path="/top">
                 <Top />
               </AuthPage>
-              <Route exact path="/auth">
+              <Route exact path="/">
                 <AuthTop />
               </Route>
               <Route path="*">
