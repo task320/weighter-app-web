@@ -85,7 +85,7 @@ function Top() {
     try{
       await Auth.signOut({global:true});
       console.log("[Top] successful signOut")
-      location.push("/Auth");
+      location.push("/");
     }catch(err){
       console.log("[Top] signOut error : ", err)
     }
