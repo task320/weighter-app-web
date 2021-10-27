@@ -38,8 +38,9 @@ function Top() {
     const result = await API.graphql({ query: listWeights, variables: { filter: filter}}) as GraphQLResult<ListWeightsQuery>;
     console.log("[Top] fetch weight data result:", result);
     if(result.data?.listWeights?.items){
+      let items = result.data?.listWeights?.items.sort((a, b) => {return (a!.createdAt < b!.createdAt) ? -1 : 1;});
       var wd: WeightData[]  = [] ;
-      for(var item of result.data?.listWeights?.items){
+      for(var item of items){
         wd.push({
                   dataId:item!.id, 
                   weight:item!.weight, 
